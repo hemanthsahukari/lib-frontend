@@ -27,10 +27,12 @@
       },
   
       async editAuthor(author) {
-        // Implement edit functionality
+        
+        console.log (author)
       },
   
       async deleteAuthor(authorId) {
+        console.log (authorId)
       },
     },
     created() {

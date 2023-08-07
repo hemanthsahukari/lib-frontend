@@ -27,11 +27,11 @@
       },
   
       async editStudent(student) {
-        // Implement edit functionality
+        console.log(student)
       },
   
       async deleteStudent(studentId) {
-        // Implement delete functionality
+        console.log(studentId)
       },
     },
     created() {

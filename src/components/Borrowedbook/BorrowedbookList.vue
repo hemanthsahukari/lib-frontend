@@ -31,11 +31,12 @@ export default {
     },
 
     async editBorrowedBook(borrowedBook) {
-      // Implement edit functionality
+      console.log (borrowedBook)
     },
 
     async deleteBorrowedBook(borrowedBookId) {
-      // Implement delete functionality
+      console.log(borrowedBookId)
+     
     },
   },
   created() {

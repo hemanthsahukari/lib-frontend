@@ -27,10 +27,12 @@
       },
   
       async editBook(book) {
+        console.log(book)
         
       },
   
       async deleteBook(bookId) {
+        console.log(bookId)
         
       },
     },

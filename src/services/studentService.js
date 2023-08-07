@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://your-backend-url/api'; 
+const BASE_URL = 'http://localhost:8980/h2/students'; 
 export default {
   getAllStudents() {
     return axios.get(`${BASE_URL}/students`);
