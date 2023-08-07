@@ -1,5 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
+import Login from '../components/Auth/Login.vue';
+import Signup from '../components/Auth/Signup.vue';
+
 import BookList from '../components/Book/BookList.vue';
 import BookForm from '../components/Book/BookForm.vue';
 import BookItem from '../components/Book/BookItem.vue';
@@ -16,8 +19,7 @@ import StudentList from '../components/Student/StudentList.vue';
 import StudentForm from '../components/Student/StudentForm.vue';
 import StudentItem from '../components/Student/StudentItem.vue';
 
-import Login from '../components/Auth/Login.vue';
-import Signup from '../components/Auth/Signup.vue';
+
 
 const routes = [
   { path: '/', redirect: '/books' },

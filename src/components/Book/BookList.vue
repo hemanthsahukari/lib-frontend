@@ -4,7 +4,7 @@
       <ul>
         <li v-for="book in books" :key="book.id">
           {{ book.title }} by {{ book.author }}
-          <button @click="editBook(book)">Edit</button>
+          <button @click="fetchBooks(book)">Edit</button>
           <button @click="deleteBook(book.id)">Delete</button>
         </li>
       </ul>

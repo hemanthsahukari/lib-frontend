@@ -27,7 +27,6 @@
       },
   
       async editAuthor(author) {
-        
         console.log (author)
       },
   

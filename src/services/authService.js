@@ -1,17 +1,17 @@
-import axios from 'axios';
+// import axios from 'axios';
 
-const BASE_URL = 'http://your-backend-url/api'; 
+// const BASE_URL = 'http://your-backend-url/api'; 
 
-export default {
-  login(userData) {
-    return axios.post(`${BASE_URL}/login`, userData);
-  },
+// export default {
+//   login(userData) {
+//     return axios.post(`${BASE_URL}/login`, userData);
+//   },
 
-  signup(userData) {
-    return axios.post(`${BASE_URL}/signup`, userData);
-  },
+//   signup(userData) {
+//     return axios.post(`${BASE_URL}/signup`, userData);
+//   },
 
-  logout() {
-    return axios.post(`${BASE_URL}/logout`);
-  },
-};
+//   logout() {
+//     return axios.post(`${BASE_URL}/logout`);
+//   },
+// };
